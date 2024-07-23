@@ -3,3 +3,7 @@ import './assets/delete_bin.svg';
 import './assets/circle_unchecked.svg';
 import './assets/circle_checked.svg';
 import './assets/folder_closed.svg';
+import './assets/calendar_today.svg';
+import './assets/calendar_month.svg';
+import './assets/calendar_tomorrow.svg';
+import './assets/inbox.svg';

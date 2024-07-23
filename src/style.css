@@ -37,16 +37,33 @@
     background-color: #4c3b4d;
 }
 
-h1, ul {
+.app-title, ul, .default-projects {
     width: 90%;
     margin: 10% 0 0 10%;
 }
 
-.proj-title {
+.app-title {
+    font-size: 2.2em;
+}
+
+.default-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 1.4em;
+}
+
+.proj-inbox, .proj-today, .proj-tomorrow, .proj-upcoming {
+    display: flex;
+    align-items: center;
+}
+
+.myproj-title {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 ul {
@@ -55,4 +72,5 @@ ul {
 
 li {
     margin: 10px 0;
+    font-size: 1.2em;
 }
