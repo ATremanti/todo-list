@@ -44,6 +44,7 @@
 .content-container {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     height: 100%;
     width: 80vw;
     margin: 5% 0 0 5%;
@@ -52,6 +53,34 @@
 .content-title {
     color: #4c3b4d;
     font-size: 2em;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.todo-flex > img {
+    height: 27px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.todo-title, .todo-description, .todo-date {
+    color: black;
+}
+
+.todo-prio {
+    color: orange;
+}
+
+.todo-title {
+    font-size: 1.4em;
 }
 
 .app-title, ul, .default-projects {
